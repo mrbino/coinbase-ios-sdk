@@ -12,9 +12,9 @@ import Foundation
 open class TransactionDetails: Decodable {
 
     /// Title.
-    public let title: String
+    public let title: String?
     /// Subtitle.
-    public let subtitle: String
+    public let subtitle: String?
     /// Name of payment method.
     public let paymentMethodName: String?
 
